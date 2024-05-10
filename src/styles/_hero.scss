@@ -18,7 +18,7 @@
     .button {
         margin-top: 2vw;
         margin-top: 8px;
-    }
+}
     
     &__content {
         max-width: 640px;
@@ -54,6 +54,10 @@
 
             &__combo {
                 width: calc(50% - 12px);
+
+                a {
+                    text-decoration: none;
+                }
 
                 @media (max-width: 768px) {
                     width: 100%;
